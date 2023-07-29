@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+body, h1, h2, h3, p, ul, li, a, img {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 18px;
+}
+
+.about-content {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.about-content img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.skills-content {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.skills-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skills-content ul {
+    display: inline-block;
+}
+
+.skills-content li {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.projects-content {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.projects-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.project {
+    max-width: 400px;
+    margin: 0 auto 30px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.resume-content {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.resume-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-content {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contact-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Adeeba Khan</h1>
+            <p>Web Developer | UI/UX Designer</p>
+        </div>
+    </header>
+    <section id="about">
+        <div class="about-content">
+            <img src="C:\Users\adeeb\Documents\Adeeba.jpg" alt="Adeeba Khan">
+            <h2>About Me</h2>
+          <p>Hello, I'm Adeeba , a passionate front-end web developer With a strong eye for design and a love for coding, I strive to create intuitive and visually stunning websites.</p>
+        <p>I believe that collaboration is key to successful projects, and I enjoy working in diverse teams to exchange ideas and bring creativity to the table. I'm always eager to take on new challenges and learn from my peers.</p>
+    </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="skills-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="projects-content">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Number guessing Game using javascript</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Election System Using C</p>
+                </div>
+            <div class="project">
+                <h3>project 3</h3>
+                <p>journey planner(Metro Railway Guide)</p>
+            </div>    
+        </div>
+    </section>
+    <section id="resume">
+        <div class="resume-content">
+            <h2>Resume</h2>
+            <p>Download my resume <a href="file:///C:/Users/adeeb/Downloads/Adeeba's%20Resume%20(1).pdf" target="_blank">here</a>.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-content">
+            <h2>Contact</h2>
+            <p>Email:adeebakhan770482@gmail.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Adeeba Khan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
